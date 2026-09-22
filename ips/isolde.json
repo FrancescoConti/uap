@@ -543,7 +543,7 @@
     "Project": "ISOLDE",
     "Name": "Root-of-Trust Unit Design and Interface with RISC-V Host Processor (TitanCFI)",
     "URL": "https://github.com/pulp-platform/opentitan/tree/mc/astral",
-    "License": "SHL-2.1",
+    "License": "SHL-0.51",
     "Status": "",
     "Description": "Silicon Root-of-Trust / secure element derived from OpenTitan Earl Grey: RV32 (CV32E) core, crypto accelerators (AES, SHA-256, SHA-3, HMAC, KMAC, OTBN, TRNG), key management and OTP secure storage. Loosely coupled to the RISC-V host via an AXI4 initiator port and an SCMI mailbox for host control; supports secure boot. Implemented in GF12LP+ (0.63 mm2, 300 MHz) and on VCU118.",
     "WI": [
@@ -737,7 +737,7 @@
     "Project": "ISOLDE",
     "Name": "Tensor Processing Unit (TPU)",
     "URL": "https://github.com/pulp-platform/pulp_cluster/tree/lg/isolde",
-    "License": "SHL-2.1",
+    "License": "SHL-0.51",
     "Status": "",
     "Description": "Loosely-coupled AI/ML accelerator cluster: 8x CV32E40P RISC-V cores (RV32IMCFXpulpV2) with 128 KiB L1 TCDM, a systolic-array Tensor Processing Engine (TPE, 12x4 default, FP16/BF16/FP8 GEMM and GEMM-Ops, up to 384 ops/cycle) and an Activation Engine (AE, Softmax/GELU), memory-mapped over AXI4. Supported by the PULP GCC toolchain, pulp-runtime SDK and the MATCH domain-specific compiler. Implemented in GF12LP+ (0.54 mm2, 500 MHz) and on VCU118.",
     "WI": [
